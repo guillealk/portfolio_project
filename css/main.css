@@ -1,0 +1,360 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: auto; 
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*
+ *
+ * Common
+ * 
+ */
+
+.news__more {
+  float: right;
+  font-size: .8em;
+  color: #333;
+  text-decoration: none;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 150px;
+  transition: min-height 0.3s;
+  display: flex;
+}
+
+.header__inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: table-row;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.header__logo {
+  height: 70px;
+  margin-right: 1em;
+  vertical-align: top;
+  margin-top: 15px;
+  float: left;
+}
+
+.header__description {
+  float: right;
+}
+
+.header__name {
+  font-weight: 300;
+  font-size: 2em;
+  text-align: right;
+  margin: 0.5em 0.25em; 
+  color: #2d3c49;
+}
+
+.header__profession {
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: right;
+  margin: 0.5em 0.25em; 
+  color: #2d3c49;
+}
+
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+    font-size: 15px;
+}
+
+/*
+* Cover page
+*
+*/
+
+.cover {
+  width: 100%;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cover__title{
+  font-size: 15px;
+  padding: 1em;
+}
+
+.cover__image{
+  float: left;
+  height: 200px;
+  margin: auto;
+  vertical-align: top;
+  margin-top: 15px;
+  width: 60%;
+  align-items: center;
+  padding: 1em;
+}
+
+.cover__description{
+  width: 79%;
+  float: right;
+  margin: auto;
+  padding: 1em;
+}
+
+.cover__paragraph{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1em;
+  align-content: center;
+  padding: 1em;
+}
+
+.projects{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  margin: auto;
+}
+
+.projects__main{
+  color: #7d97ad;
+  font-size: 1em;
+  margin: auto;
+}
+
+.projects__tittle{
+  color: #2d3c49;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+.projects__image{
+  margin: auto;
+  height: 100px;
+  align-content: center;
+}
+
+.projects__description{
+  text-align: justify;
+  margin: auto;
+  padding: 10px;
+
+}
+.projects__SAPI{
+  align-content: center;
+  padding: 1em;
+}
+
+.projects__Fraunhofer{
+  align-content: center;
+  padding: 1em;
+}
+
+.projects__Warden{
+  align-content: center;
+  padding: 1em;
+}
+
+.projects{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer {
+  border-top: 1px solid #E0E0E0;
+  padding: 10px;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
+
+}
+
+/*
+*
+* Responsiveness
+*
+*/
+
+
+@media screen and (min-width: 360px) {
+
+  .header__name {
+    font-size: 1.5em;
+  }
+
+  .header__profession {
+    font-size: 1.2em;
+  }
+
+  .cover{
+    flex-direction: column;
+   }
+
+
+  .cover__image{
+    width: 60%;
+  }
+  
+  .projects__main{
+   font-size: 2em;
+  }
+
+  .projects__tittle{
+   font-size: 1.5em;
+  }
+
+  .projects__description{
+   font-size: 1em;
+  }
+
+  .projects__image{
+    height: 100px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    font-size: 20px;
+    margin: auto;
+  }
+
+  .header__name{
+    font-size: 3em;
+  }
+
+  .header__profession{
+    font-size: 2.5em;
+  }
+
+ .cover{
+    display: table-row;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  .cover__image{
+    height: 250px;
+    width: 20%;
+  }
+  .cover__paragraph{
+    font-size: 1.3em;
+    margin: auto;
+  }
+  .projects{
+    flex-direction: row;
+    align-content: space-between; 
+    margin: auto;
+  }
+
+  .projects__tittle{
+    font-size: 15px;
+    margin: auto;
+    padding:1em;
+  }
+
+  .projects__description{
+    font-size: 1.2em;
+  }
+
+  .projects__image{
+    height: 150px;
+    width: 120%;
+  }
+
+
+  .projects__SAPI{
+    width: 30%;
+  }
+
+  .projects__Fraunhofer{
+    width: 30%;
+  }
+
+  .projects__Warden{
+    width: 30%;
+  }
+    
+}
+
+@media screen and (min-width: 1000px) {
+
+.projects__image{
+    height: 200px;
+  }
+
+.projects__SAPI{
+    width: 30%;
+}
+
+.projects__Fraunhofer{
+    width: 30%;
+  }
+
+.projects__Warden{
+    width: 30%;
+ }
+}

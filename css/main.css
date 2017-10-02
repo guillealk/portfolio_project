@@ -139,7 +139,7 @@ h1 {
 }
 
 .cover__description{
-  width: 79%;
+  width: 78%;
   float: right;
   margin: auto;
   padding: 1em;
@@ -252,7 +252,6 @@ footer a {
     flex-direction: column;
    }
 
-
   .cover__image{
     width: 60%;
   }
@@ -275,7 +274,7 @@ footer a {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
 
   h1 {
     font-size: 20px;
@@ -292,10 +291,14 @@ footer a {
 
  .cover{
     display: table-row;
-    align-content: space-between;
     flex-wrap: wrap;
 
   }
+
+  .cover__description{
+    width: 75%;
+  }
+
   .cover__image{
     height: 250px;
     width: 20%;

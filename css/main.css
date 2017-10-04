@@ -164,7 +164,7 @@ h1 {
 
 .projects-image{
   margin: 0 auto;
-  height: 100px;
+  width: 50vw ;
   align-content: center;
   align-items: center;
   min-width: 20%;
@@ -356,6 +356,6 @@ footer a {
   .projects-Warden{
    max-width: 30%;
    margin: 0 auto;
-   
+
   }
 }

@@ -1,4 +1,5 @@
-body, html {
+body, 
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -12,11 +13,20 @@ body {
   color: #424242;
 }
 
-h1, h2, h3, h4, h5 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
   margin: auto; 
 }
 
-header, nav, footer, section, article, div {
+header, 
+nav, 
+footer, 
+section, 
+article, 
+div {
   box-sizing: border-box;
 }
 
@@ -110,12 +120,12 @@ h1 {
   flex-wrap: wrap;
 }
 
-.cover-title{
+.cover-title {
   font-size: 15px;
   padding: 1em;
 }
 
-.cover-image{
+.cover-image {
   float: left;
   height: auto;
   margin: 0 auto;
@@ -126,14 +136,14 @@ h1 {
   padding: 1em;
 }
 
-.cover-description{
+.cover-description {
   width: 78%;
   float: right;
   margin: auto;
   padding: 1em;
 }
 
-.cover-paragraph{
+.cover-paragraph {
   text-align: justify;
   text-justify: inter-word;
   font-size: 1em;
@@ -141,7 +151,7 @@ h1 {
   padding: 1em;
 }
 
-.projects{
+.projects {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -149,20 +159,20 @@ h1 {
   margin: 0 auto;
 }
 
-.projects-main{
+.projects-main {
   color: #7d97ad;
   font-size: 1em;
   margin: auto;
 }
 
-.projects-tittle{
+.projects-tittle {
   color: #2d3c49;
   text-transform: uppercase;
   font-size: 1.5em;
   margin: auto;
 }
 
-.projects-image{
+.projects-image {
   margin: 0 auto;
   width: 50vw ;
   align-content: center;
@@ -170,23 +180,23 @@ h1 {
   min-width: 20%;
 }
 
-.projects-description{
+.projects-description {
   text-align: justify;
   margin: 0 auto;
   padding: 10px;
 
 }
-.projects-SAPI{
+.projects-SAPI {
   align-content: center;
   padding: 1em;
 }
 
-.projects-Fraunhofer{
+.projects-Fraunhofer {
   align-content: center;
   padding: 1em;
 }
 
-.projects-Warden{
+.projects-Warden {
   align-content: center;
   padding: 1em;
 }
@@ -216,7 +226,7 @@ footer a {
 
 }
 
-.footer-image{
+.footer-image {
   width:20px;
   height:20px;
   border:0;
@@ -239,23 +249,23 @@ footer a {
     font-size: 1.2em;
   }
 
-  .cover{
+  .cover {
     flex-direction: column;
    }
 
-  .cover-image{
+  .cover-image {
     width: 60%;
   }
   
-  .projects-main{
+  .projects-main {
    font-size: 2em;
   }
 
-  .projects-tittle{
+  .projects-tittle {
    font-size: 1.5em;
   }
 
-  .projects-description{
+  .projects-description {
    font-size: 1em;
   }
 
@@ -268,63 +278,63 @@ footer a {
     margin: auto;
   }
 
-  .header-name{
+  .header-name {
     font-size: 3em;
   }
 
-  .header-profession{
+  .header-profession {
     font-size: 2.5em;
   }
 
- .cover{
+ .cover {
     display: table-row;
     flex-wrap: wrap;
 
   }
 
-  .cover-description{
+  .cover-description {
     width: 75%;
   }
 
-  .cover-image{
+  .cover-image {
     width:auto;
     height:auto;
     max-width:20%;
   }
-  .cover-paragraph{
+  .cover-paragraph {
     font-size: 1.3em;
     margin: 0 auto;
   }
-  .projects{
+  .projects {
     margin: 0 auto;
     column-count: 2;
   }
 
-  .projects-tittle{
+  .projects-tittle {
     font-size: 15px;
     margin: auto;
     padding:1em;
   }
 
-  .projects-description{
+  .projects-description {
     font-size: 1.2em;
   }
 
-  .projects-image{
+  .projects-image {
     height: auto;
     width: 100%;
   }
 
 
-  .projects-SAPI{
+  .projects-SAPI {
     width: 30%;
   }
 
-  .projects-Fraunhofer{
+  .projects-Fraunhofer {
     width: 30%;
   }
 
-  .projects-Warden{
+  .projects-Warden {
     width: 30%;
   }
     
@@ -332,28 +342,28 @@ footer a {
 
 @media screen and (min-width: 1000px) {
 
-  .cover-image{
+  .cover-image {
     width:auto;
     height:auto;
     max-width: 20%;
   }
 
-  .projects-image{
+  .projects-image {
     height: auto;
     max-width: 70%;
   }
 
-  .projects-SAPI{
+  .projects-SAPI {
    max-width: 30%;
    margin: 0 auto;
   }
 
-  .projects-Fraunhofer{
+  .projects-Fraunhofer {
    max-width: 30%;
    margin: 0 auto;
   }
 
-  .projects-Warden{
+  .projects-Warden {
    max-width: 30%;
    margin: 0 auto;
 
